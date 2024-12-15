@@ -1,0 +1,23 @@
+{
+  "tame": [
+    "minecraft:slime_ball"
+  ],
+  "breed": [
+    "minecraft:slime_ball",
+    {
+      "item": "minecraft:slime_ball",
+      "heal": 1
+    }
+  ],
+
+  "chance": 0.1,
+  "attack": true,
+  "protect": true,
+  "follow": {
+    "enable": true,
+    "speed": 1,
+    "minDistance": 10,
+    "maxDistance": 2,
+    "leavesAllowed": false
+  }
+}

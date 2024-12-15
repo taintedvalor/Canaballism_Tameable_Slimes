@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "canaballism-tameable-slimes",
+	"version": "${version}",
+	"name": "Canaballism: Tameable Slimes",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/tameableslimes",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU General Public License v3",
+	"icon": "assets/canaballism-tameable-slimes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"slimes.canaballism.CanaballismTameableSlimes"
+		],
+		"fabric-datagen": [
+			"slimes.canaballism.CanaballismTameableSlimesDataGenerator"
+		]
+	},
+	"mixins": [
+		"canaballism-tameable-slimes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
